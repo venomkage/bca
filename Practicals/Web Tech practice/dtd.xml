@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE note 
+[
+<!ELEMENT books (title,author,isbn,publisher,edition,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+
+<books>
+<title>Woo</title>
+<author>Vip</author>
+<isbn>yay</isbn>
+<publisher>yay yay yay</publisher>
+<edition>3</edition>
+<price>300</price>
+</books>
